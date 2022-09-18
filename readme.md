@@ -1,7 +1,6 @@
 ### 데이터구조설계 1차 프로젝트
 
-#### 본 프로젝트는 계정 관리 프로그램을 구현하는 것으로 상세한 설명은 프로젝트 제안서를 참고한다.
-##### 본 프로젝트에서는 이진 탐색 트리(Binary Search Tree, BST)와 연결 리스트(Linked List), 큐(Queue), 힙(Heap)을 이용하여 계정 관리 프로그램을 구현한다. 
+#### 본 프로젝트는 이진 탐색 트리(Binary Search Tree, BST)와 연결 리스트(Linked List), 큐(Queue), 힙(Heap)을 이용하여 계정 관리 프로그램을 구현하는 것으로 상세한 설명은 프로젝트 제안서를 참고한다. 
 이 프로그램은 파일로부터 사용자 이름과 나이, 계정 ID를 읽어 Queue를 구축하며, 해당 Queue를 Account_Queue라 부른다. 
 pop 명령을 실행하면 Queue에서 데이터를 방출하여 Account_BST와 User_List에 저장한다. Account_BST는 계정 ID와 사용자 이름으로 노드를 구성하며,
 계정 ID를 기준으로 BST를 연결한다. User_List는 사용자 이름과 나이, 사용자가 보유한 계정 수로 노드를 구성하며, 노드가 입력된 순서대로 List를 연결한다. 
